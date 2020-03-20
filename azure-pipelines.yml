@@ -18,8 +18,5 @@ steps:
 - script: |
     npm install
     npm install yo gulp-cli --global
-    npm install generator-teams --global
-    gulp manifest
-    gulp build
-    npm run build
+    npm install generator-teams --global   
   displayName: 'npm install and build'
